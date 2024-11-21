@@ -761,6 +761,10 @@ video {
   transition-duration: 150ms;
 }
 
+/* FLEX CENTER */
+
+/* LTR DIRECTION */
+
 @media (prefers-color-scheme: dark) {
   .dark\:bg-zinc-800 {
     --tw-bg-opacity: 1;
