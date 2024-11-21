@@ -1,11 +1,29 @@
 <!doctype html>
-<html lang="en">
+<html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
+    <meta name="keywords" content="Golden Coffee, coffee shop, freshly brewed coffee, pastries, cozy cafe, best coffee, specialty coffee, Persian coffee shop, café near me" />
+    <meta name="description" content="Golden Coffee - Your destination for freshly brewed coffee, delicious pastries, and a cozy ambiance. Experience the taste of happiness in every cup." />
+    <meta name="author" content="Ramtin Imani" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- ===== FAVICON ===== -->
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon" />
+    <!-- ===== SWIPER CSS ===== -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="css/app.css" />
+    <!-- ===== toggle dark mode based on localStorage or user system preference ===== -->
+    <script>
+      document.documentElement.classList.toggle("dark", localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches));
+    </script>
+    <title>Golden Coffee | Freshly Brewed Happiness</title>
   </head>
   <body>
-    
+
+
+    <!-- ===== SWIPER JS ===== -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- ===== JS ===== -->
+    <script src="js/app.js"></script>
   </body>
 </html>
