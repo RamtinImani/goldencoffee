@@ -74,3 +74,26 @@
     text-align: left;
   }
 }
+
+@layer components {
+  /* DROPDOWN COMPONENT */
+  .dropdown {
+    @apply mt-3 hidden flex-col gap-y-3 pr-7 text-sm text-zinc-600 dark:text-white;
+  }
+  .dropdown--open {
+    @apply flex;
+  }
+  .dropdown__item--active {
+    @apply relative pr-2.5;
+  }
+  .dropdown__item--active::before {
+    @apply absolute bottom-0 right-0 top-0 my-auto h-1 w-1 rounded-full bg-orange-300 content-[''];
+  }
+  /* OVERLAY COMPONENT */
+  .overlay {
+    @apply invisible fixed inset-0 z-10 h-full w-full bg-black/40 opacity-0 transition-all;
+  }
+  .overlay--visible {
+    @apply visible opacity-100;
+  }
+}
