@@ -96,4 +96,20 @@
   .overlay--visible {
     @apply visible opacity-100;
   }
+  /* HOME BUTTON CIRCLE COMPONENT */
+  .circle {
+    @apply hidden items-center justify-center rounded-full border md:flex;
+  }
+  .circle--center {
+    @apply absolute bottom-0 left-0 right-0 mx-auto translate-y-1/2;
+  }
+  .circle--lg {
+    @apply size-[203px] border-white/25;
+  }
+  .circle--md {
+    @apply size-[145px] border-white/50;
+  }
+  .circle--sm {
+    @apply size-[95px] border-white/80;
+  }
 }
