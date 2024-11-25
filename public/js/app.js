@@ -76,3 +76,23 @@ cartCloseBtn.addEventListener("click", hideShoppingCart);
 //! CLOSE SIDEBARS BY OVERLAY:
 overlay.addEventListener("click", hideSidebarMenu);
 overlay.addEventListener("click", hideShoppingCart);
+
+//! BEST SELLING PRODUCTS SWIPER JS:
+let swiper = new Swiper(".best-products-swiper", {
+  slidesPerView: 2,
+  spaceBetween: 14,
+  navigation: {
+    nextEl: ".swiper-button-next-custom",
+    prevEl: ".swiper-button-prev-custom",
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+  },
+});
