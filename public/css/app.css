@@ -847,6 +847,42 @@ video {
   color: rgb(63 63 70 / var(--tw-text-opacity, 1));
 }
 
+/* SERVICES LINES COMPONENT */
+
+.services-lines::before {
+  position: absolute;
+  inset: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 1px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+.services-lines:where(.dark, .dark *)::before {
+  background-color: rgb(255 255 255 / 0.1);
+}
+
+.services-lines::after {
+  position: absolute;
+  inset: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 1px;
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+.services-lines:where(.dark, .dark *)::after {
+  background-color: rgb(255 255 255 / 0.1);
+}
+
 .visible {
   visibility: visible;
 }
