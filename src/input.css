@@ -127,4 +127,11 @@
   .swiper-button-prev-custom {
     @apply flex-center size-9 rounded-full bg-white text-zinc-700 shadow-global transition-colors hover:bg-gray-300 sm:size-11 dark:bg-zinc-700 dark:text-white dark:hover:bg-white dark:hover:text-zinc-700;
   }
+  /* SERVICES LINES COMPONENT */
+  .services-lines::before {
+    @apply absolute inset-0 mx-auto h-full w-px bg-gray-300 content-[''] dark:bg-white/10;
+  }
+  .services-lines::after {
+    @apply absolute inset-0 my-auto h-px w-full bg-gray-300 content-[''] dark:bg-white/10;
+  }
 }
