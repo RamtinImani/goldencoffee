@@ -1512,6 +1512,10 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-bl-4xl {
+  border-bottom-left-radius: 2rem;
+}
+
 .border {
   border-width: 1px;
 }

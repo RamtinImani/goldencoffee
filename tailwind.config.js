@@ -35,6 +35,9 @@ module.exports = {
       spacing: {
         30: "7.5rem",
       },
+      borderRadius:{
+        '4xl': '2rem',
+      },
       backgroundImage: {
         "home-mobile": "url('/public/images/headerBgMobile.webp')",
         "home-desktop": "url('/public/images/headerBgDesktop.webp')",
