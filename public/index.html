@@ -982,7 +982,7 @@
     <!-- ========== APP MAIN ========== -->
     <main class="main">
       <!-- ===== HOME SECTION ===== -->
-      <section class="home relative h-56 bg-home-mobile bg-cover bg-[center_top] bg-no-repeat pt-16 xs:aspect-[2/1] xs:h-auto md:bg-home-desktop md:p-0">
+      <section id="home-section" class="home relative h-56 bg-home-mobile bg-cover bg-[center_top] bg-no-repeat pt-16 xs:aspect-[2/1] xs:h-auto md:bg-home-desktop md:p-0">
         <!-- ===== HOME SECTION CONTAINER ===== -->
         <div class="container relative flex h-full items-center justify-end overflow-y-hidden md:min-h-screen">
           <!-- ===== HOME SECTION CONTENTS ===== -->
@@ -1008,11 +1008,11 @@
           <use href="#curve"></use>
         </svg>
         <!-- ===== ARROW CIRCLE ===== -->
-        <button class="animate-arrow-button absolute -bottom-4 left-0 right-0 z-50 mx-auto hidden h-[30px] w-[30px] translate-y-1/2 items-center justify-center rounded-full border-2 border-orange-300 md:flex">
+        <a href="#best-products" class="animate-arrow-button absolute -bottom-4 left-0 right-0 z-50 mx-auto hidden h-[30px] w-[30px] translate-y-1/2 items-center justify-center rounded-full border-2 border-orange-300 md:flex">
           <svg class="size-5 text-zinc-700 dark:text-white">
             <use href="#chevron-down-mini"></use>
           </svg>
-        </button>
+        </a>
       </section>
       <!-- ===== PRODUCTS SECTION ===== -->
       <section class="products my-8 md:mb-20 md:mt-24 xl:mt-48">
@@ -1605,7 +1605,7 @@
         </div>
       </section>
       <!-- ===== BEST SELLING PRODUCTS ===== -->
-      <section class="best-selling-products mb-8 md:mb-20">
+      <section id="best-products" class="best-selling-products mb-8 md:mb-20">
         <!-- ===== BEST SELLING PRODUCTS CONTAINER ===== -->
         <div class="container">
           <!-- ===== BEST SELLING PRODUCTS TITLE ===== -->
@@ -2427,11 +2427,11 @@
         <use href="#curve-reverse"></use>
       </svg>
       <!-- ===== ARROW CIRCLE ===== -->
-      <button class="animate-arrow-button absolute -top-4 left-0 right-0 z-50 mx-auto hidden size-[30px] -translate-y-1/2 items-center justify-center rounded-full border-2 border-orange-300 md:flex">
+      <a href="#home-section" class="animate-arrow-button absolute -top-4 left-0 right-0 z-50 mx-auto hidden size-[30px] -translate-y-1/2 items-center justify-center rounded-full border-2 border-orange-300 md:flex">
         <svg class="size-5 text-zinc-700 dark:text-white">
           <use href="#chevron-up-mini"></use>
         </svg>
-      </button>
+      </a>
       <!-- ===== FOOTER CONTENTS ===== -->
       <div class="mx-auto flex w-[95%] flex-col gap-y-10 text-gray-300 lg:w-[90%]">
         <!-- ===== FOOTER DESCRIPTION ===== -->
