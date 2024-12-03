@@ -47,3 +47,5 @@ This project uses the Tailwind CSS CLI to build the styles. Run the following co
 ### 🪄 `Made With 🤍`
 ---
 ![preview image](/preview.png)
+---
+### 🎨 This project’s Figma design is sourced from "sabzLearn.ir"
