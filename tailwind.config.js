@@ -35,14 +35,24 @@ module.exports = {
       spacing: {
         30: "7.5rem",
       },
-      borderRadius:{
-        '4xl': '2rem',
+      borderRadius: {
+        "4xl": "2rem",
       },
       backgroundImage: {
         "home-mobile": "url('/public/images/headerBgMobile.webp')",
         "home-desktop": "url('/public/images/headerBgDesktop.webp')",
         "category-right": "url('/public/images/categories/category-right.jpg')",
         "category-left": "url('/public/images/categories/category-left.jpg')",
+      },
+      animation: {
+        "arrow-button": "arrow-button 2s infinite",
+      },
+      keyframes: {
+        "arrow-button": {
+          "0%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-4px)" },
+          "100%": { transform: "translateY(0px)" },
+        },
       },
     },
   },
