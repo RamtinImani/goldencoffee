@@ -22,12 +22,12 @@ module.exports = {
         global: "0 1px 10px rgba(0, 0, 0, 0.05)",
       },
       fontFamily: {
-        DanaRegular: "Dana Regular",
-        DanaMedium: "Dana Medium",
-        DanaDemiBold: "Dana DemiBold",
-        MorabbaLight: "Morabba Light",
-        MorabbaMedium: "Morabba Medium",
-        MorabbaBold: "Morabba Bold",
+        DanaRegular: "DanaRegular",
+        DanaMedium: "DanaMedium",
+        DanaDemiBold: "DanaDemiBold",
+        MorabbaLight: "MorabbaLight",
+        MorabbaMedium: "MorabbaMedium",
+        MorabbaBold: "MorabbaBold",
       },
       letterSpacing: {
         tightest: "-0.065em",
@@ -39,10 +39,10 @@ module.exports = {
         "4xl": "2rem",
       },
       backgroundImage: {
-        "home-mobile": "url('/public/images/headerBgMobile.webp')",
-        "home-desktop": "url('/public/images/headerBgDesktop.webp')",
-        "category-right": "url('/public/images/categories/category-right.jpg')",
-        "category-left": "url('/public/images/categories/category-left.jpg')",
+        "home-mobile": "url('../images/headerBgMobile.webp')",
+        "home-desktop": "url('../images/headerBgDesktop.webp')",
+        "category-right": "url('../images/categories/category-right.jpg')",
+        "category-left": "url('../images/categories/category-left.jpg')",
       },
       animation: {
         "arrow-button": "arrow-button 2s infinite",
